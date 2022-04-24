@@ -1,0 +1,34 @@
+print("Juniper Pirate SRX Quiz")
+question1 = "Which describes the function of screen options?"
+options1 = "a. Screen options encrypt transit traffic in a tunnel.\n" \
+           "b. Screen options protect against various attacks on traffic entering a security device.\n" \
+           "c. Screen options translate a private address to a public address.\n" \
+           "d. Screen options restrict or permit users individually or in a group\n"
+print(question1)
+print(options1)
+
+while True:
+    response = input("Type 'a', 'b', 'c' or 'd' for your answer\n")
+
+    if response == "b":
+        print("You Pirate genius!\n")
+        break
+    else:
+        print("Arrrgh me matey incorrect! Try again.")
+
+question2 = "test2?"
+options2 = "a. tretin a tunnel.\n" \
+           "b. tretet.\n" \
+           "c. treteter.\n" \
+           "d. rtetertre\n"
+print(question2)
+print(options2)
+
+while True:
+    response = input("Type 'a', 'b', 'c' or 'd' for your answer\n")
+
+    if response == "b":
+        print("You Pirate genius!\n")
+        break
+    else:
+        print("Arrrrgh me matey incorrect! Try again.")
